@@ -9,18 +9,18 @@
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_7F2DF608-C90D-4890-891F-B831FD8DFE12</bpmn2:outgoing>
       <bpmn2:timerEventDefinition id="_8KWcUe6AEei6uP9RrVoiOQ">
-        <bpmn2:timeCycle xsi:type="bpmn2:tFormalExpression" id="_8KWcUu6AEei6uP9RrVoiOQ" language="none">10S</bpmn2:timeCycle>
+        <bpmn2:timeCycle xsi:type="bpmn2:tFormalExpression" id="_8KWcUu6AEei6uP9RrVoiOQ" language="none">15S</bpmn2:timeCycle>
       </bpmn2:timerEventDefinition>
     </bpmn2:startEvent>
     <bpmn2:scriptTask id="_3E3EAB48-B3AB-4443-8701-9CB9EAA2794E" drools:selectable="true" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="v1.1" scriptFormat="http://www.java.com/java">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
-          <drools:metaValue><![CDATA[v1.0]]></drools:metaValue>
+          <drools:metaValue><![CDATA[v1.1]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_7F2DF608-C90D-4890-891F-B831FD8DFE12</bpmn2:incoming>
       <bpmn2:outgoing>_27ACA2B4-07B5-4F7A-B951-AC2663DDE537</bpmn2:outgoing>
-      <bpmn2:script><![CDATA[System.out.println("v1.0 fired");]]></bpmn2:script>
+      <bpmn2:script><![CDATA[System.out.println("v1.1 fired");]]></bpmn2:script>
     </bpmn2:scriptTask>
     <bpmn2:sequenceFlow id="_7F2DF608-C90D-4890-891F-B831FD8DFE12" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_5B65E3C4-659F-4D41-960A-DEB510003B26" targetRef="_3E3EAB48-B3AB-4443-8701-9CB9EAA2794E"/>
     <bpmn2:endEvent id="_9E9E1DA5-98BF-4267-AE72-112705F93AA0" drools:selectable="true" color:background-color="#ff6347" color:border-color="#000000" color:color="#000000" name="">
